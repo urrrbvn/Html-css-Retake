@@ -1,0 +1,48 @@
+@media (max-width: 1100px) {
+  .AboutUs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutUs article {
+    margin-top: 30px;
+    line-height: 34px;
+    overflow-x: visible;
+  }
+  .AboutUs article p {
+    text-align: center;
+    line-height: 28px;
+  }
+  .AboutUs article h1 {
+    text-align: center;
+  }
+  .OfferContainer article h1 {
+    margin-top: 20px;
+  }
+  .AdditionalInfo {
+    font-size: 28px;
+  }
+  .cardsContainer {
+    height: 343px;
+  }
+}
+@media (max-width: 830px) {
+  .OfferContainer {
+    flex-direction: column;
+  }
+  .OfferContainer article {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .OfferContainer figure {
+    width: 100%;
+    height: 200px;
+    overflow-y: hidden;
+  }
+  .OfferContainer figure img {
+    width: 100%;
+    height: 604px;
+    position: relative;
+    top: -145px;
+  }
+}/*# sourceMappingURL=mobileStyle.css.map */
